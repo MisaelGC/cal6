@@ -1,0 +1,62 @@
+body{
+    background: black;
+    color: white;
+}
+
+header{
+    background: cyan;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+header div{
+  margin: 0px;
+  display: inline-block;
+  text-align: center;
+  width: 30%
+}
+
+input{
+  width: 200px;
+  height: 25px;
+  margin-right: -2px;
+}
+
+button{
+  background-color: red;
+  border: none;
+  color: white;
+  width: 90px;
+  height: 28px;
+}
+
+header section{
+  display: inline-block;
+  width: 67%;
+  text-align: right;
+}
+
+main{
+  background: red;
+}
+footer{
+  background: grey;
+  text-align: center;
+}
+
+@media screen and (min-width: 500px) and (max-width: 700px) {
+  main{
+    background: blue;
+  }
+
+  a{
+    color: white;
+  }
+  body{
+    background: grey;
+  }
+
+  header{
+    background: purple;
+  }
+}
